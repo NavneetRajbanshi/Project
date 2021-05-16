@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "newproject"
+version = "0.1.0"
+description = ""
+authors = ["NavneetRajbanshi <navneetrajbanshi85@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pyglet = "^1.5.16"
+mypy = "^0.812"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^21.5b1"
+mypy = "^0.812"
+bandit = "^1.7.0"
+flake8 = "^3.9.2"
+fastapi = "^0.65.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
